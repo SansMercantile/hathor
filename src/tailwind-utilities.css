@@ -1,5 +1,0 @@
-/* Only the components/utilities layers — no @tailwind base, which would reset the
-   existing hand-built design system in /public/css/styles.css. This exists purely so
-   the ported dashboard component's Tailwind utility classes render correctly. */
-@tailwind components;
-@tailwind utilities;
