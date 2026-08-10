@@ -151,12 +151,12 @@ export default function App() {
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#1f29370d_1px,transparent_1px),linear-gradient(to_bottom,#1f29370d_1px,transparent_1px)] bg-[size:2rem_2rem] pointer-events-none" />
       
       {/* Top Cockpit Header in High Density Theme style */}
-      <header className="relative z-10 max-w-7xl w-full mx-auto border border-zinc-805 border-zinc-700 bg-[#141417] pb-3 pt-3 px-4 flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4">
+      <header className="relative z-10 max-w-7xl w-full mx-auto border border-zinc-700 bg-[#141417] pb-3 pt-3 px-4 flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4">
         <div className="flex flex-wrap items-center gap-6">
           <div className="bg-zinc-100 text-black px-3 py-1 font-bold text-md tracking-tighter">HATHOR // CORE</div>
           <div className="flex flex-col text-left">
             <span className="text-[10px] text-zinc-500 uppercase tracking-widest">System Status</span>
-            <span className="text-emerald-500 text-xs font-bold">● NOMINAL_OPERATION</span>
+            <span className="text-emerald-500 text-xs font-bold">â— NOMINAL_OPERATION</span>
           </div>
         </div>
 
@@ -192,7 +192,7 @@ export default function App() {
           className={`px-3 py-1 text-xs font-mono font-bold tracking-tighter uppercase transition cursor-pointer border rounded-none ${
             activeTab === "overview"
               ? "bg-zinc-100 text-black border-zinc-100"
-              : "bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-white hover:bg-zinc-805"
+              : "bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-white hover:bg-zinc-800"
           }`}
         >
           CORE OVERVIEW //
@@ -203,7 +203,7 @@ export default function App() {
           className={`px-3 py-1 text-xs font-mono font-bold tracking-tighter uppercase transition cursor-pointer border rounded-none ${
             activeTab === "geology"
               ? "bg-zinc-100 text-black border-zinc-100"
-              : "bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-white hover:bg-zinc-850"
+              : "bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-white hover:bg-zinc-800"
           }`}
         >
           GEOLOGY SCANNER //
@@ -214,7 +214,7 @@ export default function App() {
           className={`px-3 py-1 text-xs font-mono font-bold tracking-tighter uppercase transition cursor-pointer border rounded-none ${
             activeTab === "optimizer"
               ? "bg-zinc-100 text-black border-zinc-100"
-              : "bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-white hover:bg-zinc-850"
+              : "bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-white hover:bg-zinc-800"
           }`}
         >
           EXTRACTION OPTIMIZER //
@@ -225,7 +225,7 @@ export default function App() {
           className={`px-3 py-1 text-xs font-mono font-bold tracking-tighter uppercase transition cursor-pointer border rounded-none ${
             activeTab === "hazards"
               ? "bg-zinc-100 text-black border-zinc-100"
-              : "bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-white hover:bg-zinc-850"
+              : "bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-white hover:bg-zinc-800"
           }`}
         >
           HAZARDS COMMAND //
@@ -236,7 +236,7 @@ export default function App() {
           className={`px-3 py-1 text-xs font-mono font-bold tracking-tighter uppercase transition cursor-pointer border rounded-none ${
             activeTab === "auditing"
               ? "bg-zinc-100 text-black border-zinc-100"
-              : "bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-white hover:bg-zinc-850"
+              : "bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-white hover:bg-zinc-800"
           }`}
         >
           ESG & COMPLIANCE //
@@ -247,7 +247,7 @@ export default function App() {
           className={`px-3 py-1 text-xs font-mono font-bold tracking-tighter uppercase transition cursor-pointer border rounded-none ${
             activeTab === "constellation"
               ? "bg-zinc-100 text-black border-zinc-100"
-              : "bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-white hover:bg-zinc-850"
+              : "bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-white hover:bg-zinc-800"
           }`}
         >
           CONSTELLATION NETWORK //
@@ -336,7 +336,7 @@ export default function App() {
                   <span className="text-[10px] font-mono text-zinc-500 uppercase">CONSTELLATION FEEDS</span>
                   <Radio className="h-4 w-4 text-zinc-400" />
                 </div>
-                <div className="text-xl font-bold text-zinc-150">4 / 4 COOPERATIVE</div>
+                <div className="text-xl font-bold text-zinc-100">4 / 4 COOPERATIVE</div>
                 <p className="text-[10px] text-zinc-500 font-mono mt-2">
                   PTAH, HAPI, MAMI, SHANGO linked
                 </p>
@@ -354,19 +354,19 @@ export default function App() {
 
                 <div className="space-y-3 font-sans text-xs text-zinc-400 leading-relaxed">
                   <div className="p-3 bg-zinc-900/40 border border-zinc-800 rounded-none hover:border-zinc-700 transition">
-                    <span className="font-mono text-[9px] text-zinc-400 font-semibold block mb-1">STRATA ANALYSIS — SYSTEM TRIGGERED</span>
+                    <span className="font-mono text-[9px] text-zinc-400 font-semibold block mb-1">STRATA ANALYSIS â€” SYSTEM TRIGGERED</span>
                     <p className="text-[#D1D1D1]">
                       Geology model detected severe igneous basalt barriers between 60m and 170m under Block Beta. Standard drill rotational load increased slightly by +12.5%. Core targets verified intact.
                     </p>
                   </div>
                   <div className="p-3 bg-zinc-900/40 border border-zinc-800 rounded-none hover:border-zinc-700 transition">
-                    <span className="font-mono text-[9px] text-zinc-400 font-semibold block mb-1">ESG HYDRAULICS CERTIFICATE — MAMI_WATER</span>
+                    <span className="font-mono text-[9px] text-zinc-400 font-semibold block mb-1">ESG HYDRAULICS CERTIFICATE â€” MAMI_WATER</span>
                     <p className="text-[#D1D1D1]">
                       Tailings recycling units achieved a record **94.2% water reclamation coefficient**, reducing on-site river dewatering ingestion rates within certified baseline green thresholds.
                     </p>
                   </div>
                   <div className="p-3 bg-zinc-900/40 border border-zinc-800 rounded-none hover:border-zinc-700 transition">
-                    <span className="font-mono text-[9px] text-zinc-400 font-semibold block mb-1">CONSTELLATION INTEGRITY — SHANGO FEED</span>
+                    <span className="font-mono text-[9px] text-zinc-400 font-semibold block mb-1">CONSTELLATION INTEGRITY â€” SHANGO FEED</span>
                     <p className="text-[#D1D1D1]">
                       Weather patterns remain clear from any heavy wind or lightning threat factors. Heavy transportation fleets managed under HAPI can continue scheduled gold haul road runs throughout night shifts.
                     </p>
@@ -387,7 +387,7 @@ export default function App() {
                       <div key={idx} className="p-2.5 bg-zinc-950 border border-zinc-900 rounded-none font-mono text-[10px] text-zinc-300 flex justify-between items-start gap-3">
                         <div className="space-y-1">
                           <span className="text-zinc-400 font-bold uppercase block text-[9px]">{msg.sender}</span>
-                          <p className="text-zinc-350 font-sans text-xs leading-relaxed">{msg.content}</p>
+                          <p className="text-zinc-400 font-sans text-xs leading-relaxed">{msg.content}</p>
                         </div>
                         <span className="text-zinc-600 self-center shrink-0 text-[10px]">{msg.timestamp}</span>
                       </div>
@@ -435,15 +435,15 @@ export default function App() {
       {/* Corporate platform footer */}
       <footer className="relative z-10 max-w-7xl w-full mx-auto border border-zinc-800 bg-[#141417] p-4 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] font-mono text-zinc-500">
         <div className="flex gap-6 items-center flex-wrap">
-          <span>LAT: 25.7617° N</span>
-          <span>LON: 80.1918° W</span>
+          <span>LAT: 25.7617Â° N</span>
+          <span>LON: 80.1918Â° W</span>
           <span>ALT: 402 KM</span>
           <span className="hidden sm:inline">|</span>
           <span className="text-zinc-400 font-bold">Terminal Connected</span>
           <div className="w-1.5 h-3 bg-emerald-500 animate-pulse inline-block"></div>
         </div>
         <div className="flex gap-4">
-          <span className="text-zinc-500 uppercase">SANS_MERCANTILE_INDUSTRIES // ©2026</span>
+          <span className="text-zinc-500 uppercase">SANS_MERCANTILE_INDUSTRIES // Â©2026</span>
         </div>
       </footer>
     </div>

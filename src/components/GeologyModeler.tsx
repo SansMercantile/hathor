@@ -290,12 +290,12 @@ export function GeologyModeler() {
             >
               {isScanning ? (
                 <>
-                  <RefreshCw className="h-4.5 w-4.5 animate-spin" />
+                  <RefreshCw className="h-4 w-4 animate-spin" />
                   <span>Scanning Sub-Layers...</span>
                 </>
               ) : (
                 <>
-                  <Activity className="h-4.5 w-4.5" />
+                  <Activity className="h-4 w-4" />
                   <span>Execute AI Geology Scan</span>
                 </>
               )}
@@ -309,7 +309,7 @@ export function GeologyModeler() {
         {/* Right Canvas and Display Side */}
         <div className="lg:col-span-8 p-6 flex flex-col gap-6 bg-neutral-900/50">
           {/* Interactive Geology Map */}
-          <div className="border border-neutral-800 rounded-lg p-3 bg-neutral-955 overflow-hidden relative group">
+          <div className="border border-neutral-800 rounded-lg p-3 bg-neutral-950 overflow-hidden relative group">
             <div className="absolute top-4 left-4 bg-neutral-950/80 border border-neutral-800 rounded px-2.5 py-1 text-[9px] font-mono text-neutral-300 pointer-events-none z-10 flex items-center gap-1.5 backdrop-blur-sm">
               <span className="h-1.5 w-1.5 rounded-full bg-amber-500 animate-pulse" />
               LIVE TELEMETRY ACTIVE

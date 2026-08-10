@@ -108,12 +108,12 @@ export function EnvironmentalAudit() {
           >
             {isAuditing ? (
               <>
-                <RefreshCw className="h-4.5 w-4.5 animate-spin" />
+                <RefreshCw className="h-4 w-4 animate-spin" />
                 <span>Auditing ESG metrics...</span>
               </>
             ) : (
               <>
-                <FileText className="h-4.5 w-4.5" />
+                <FileText className="h-4 w-4" />
                 <span>Compile Compliance Audit</span>
               </>
             )}
@@ -121,7 +121,7 @@ export function EnvironmentalAudit() {
         </div>
 
         {/* Audit feedback report side */}
-        <div className="xl:col-span-8 p-6 space-y-5 bg-neutral-905">
+        <div className="xl:col-span-8 p-6 space-y-5 bg-neutral-900">
           <h3 className="text-xs font-mono font-bold tracking-widest text-neutral-300 border-b border-neutral-800 pb-2 uppercase flex items-center gap-1.5 justify-between">
             <span>Official Certification Log</span>
             <span className="text-neutral-500">FORMAT: CODE RECTIFIED REPORT</span>

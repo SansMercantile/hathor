@@ -178,12 +178,12 @@ export function ExtractionOptimizer() {
             >
               {isOptimizing ? (
                 <>
-                  <RefreshCw className="h-4.5 w-4.5 animate-spin" />
+                  <RefreshCw className="h-4 w-4 animate-spin" />
                   <span>Calculating Schedule...</span>
                 </>
               ) : (
                 <>
-                  <Sparkles className="h-4.5 w-4.5 animate-pulse" />
+                  <Sparkles className="h-4 w-4 animate-pulse" />
                   <span>Optimize Mine Sequence</span>
                 </>
               )}

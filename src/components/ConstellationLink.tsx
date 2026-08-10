@@ -87,7 +87,7 @@ export function ConstellationLink({ eventBusMessages, onPublishMessage }: Conste
               return (
                 <div
                   key={sys.id}
-                  className="bg-neutral-950/60 hover:bg-neutral-950 border border-neutral-850 hover:border-amber-500/30 p-4 rounded transition flex flex-col justify-between gap-3 relative overflow-hidden group"
+                  className="bg-neutral-950/60 hover:bg-neutral-950 border border-neutral-800 hover:border-amber-500/30 p-4 rounded transition flex flex-col justify-between gap-3 relative overflow-hidden group"
                 >
                   <div>
                     <div className="flex justify-between items-center">
