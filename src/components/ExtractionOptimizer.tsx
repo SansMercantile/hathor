@@ -27,7 +27,7 @@ export function ExtractionOptimizer() {
     setOptimizedData(null);
 
     try {
-      const response = await fetch("/api/gemini/optimize", {
+      const response = await fetch("/api/ai/optimize", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

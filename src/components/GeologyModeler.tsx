@@ -188,7 +188,7 @@ export function GeologyModeler() {
     setScanResult(null);
 
     try {
-      const response = await fetch("/api/gemini/geoscan", {
+      const response = await fetch("/api/ai/geoscan", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

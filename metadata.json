@@ -2,5 +2,5 @@
   "name": "HATHOR Platform",
   "description": "AI-guided mineral intelligence and resource extraction optimization command platform.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": []
 }

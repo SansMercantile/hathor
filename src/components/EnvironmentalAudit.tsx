@@ -17,7 +17,7 @@ export function EnvironmentalAudit() {
     setAuditResult(null);
 
     try {
-      const response = await fetch("/api/gemini/compliance", {
+      const response = await fetch("/api/ai/compliance", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
